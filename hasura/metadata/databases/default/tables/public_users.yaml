@@ -16,3 +16,9 @@ computed_fields:
         name: common_interests
         schema: public
       table_argument: user_row
+  - name: other_interests
+    definition:
+      function:
+        name: other_interests
+        schema: public
+      table_argument: user_row
