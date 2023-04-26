@@ -1,1 +1,10 @@
-[]
+- comment: ""
+  definition:
+    query:
+      collection_name: allowed-queries
+      query_name: common_interests
+  methods:
+    - GET
+    - POST
+  name: common_interests
+  url: interests/common/:userId/:limit/:offset
