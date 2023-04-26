@@ -1,0 +1,1 @@
+DROP FUNCTION IF EXISTS public.common_interests(users, JSON);
