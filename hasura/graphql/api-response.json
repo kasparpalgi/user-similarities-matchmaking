@@ -1,0 +1,97 @@
+{
+    "data": {
+        "find_users_by_common_interests": [
+            {
+                "id": 2,
+                "first_name": "Bob",
+                "common_interests": [
+                    {
+                        "id": 1,
+                        "name": "Hasura"
+                    },
+                    {
+                        "id": 2,
+                        "name": "PostgreSQL"
+                    },
+                    {
+                        "id": 3,
+                        "name": "GraphQL"
+                    }
+                ],
+                "other_interests": [
+                    {
+                        "id": 4,
+                        "name": "Python"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Rust"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "first_name": "Mary",
+                "common_interests": [
+                    {
+                        "id": 1,
+                        "name": "Hasura"
+                    },
+                    {
+                        "id": 3,
+                        "name": "GraphQL"
+                    }
+                ],
+                "other_interests": [
+                    {
+                        "id": 10,
+                        "name": "Kotlin"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "first_name": "Thomas",
+                "common_interests": [
+                    {
+                        "id": 2,
+                        "name": "PostgreSQL"
+                    }
+                ],
+                "other_interests": [
+                    {
+                        "id": 6,
+                        "name": "PHP"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Laravel"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Databases"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "first_name": "Anastasia",
+                "common_interests": [],
+                "other_interests": [
+                    {
+                        "id": 9,
+                        "name": "Golang"
+                    },
+                    {
+                        "id": 10,
+                        "name": "Kotlin"
+                    },
+                    {
+                        "id": 11,
+                        "name": "Android Development"
+                    }
+                ]
+            }
+        ]
+    }
+}

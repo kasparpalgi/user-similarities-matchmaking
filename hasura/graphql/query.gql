@@ -1,0 +1,18 @@
+query GetUsersByCommonInterests($userId: Int!, $limit: Int, $offset: Int) {
+  find_users_by_common_interests(
+    args: { input_user_id: $userId }
+    limit: $limit
+    offset: $offset
+  ) {
+    id
+    first_name
+    common_interests: common_interests(args: { input: { user_id: $userId } }) {
+      id
+      name
+    }
+    other_interests: other_interests(args: { input: { user_id: $userId } }) {
+      id
+      name
+    }
+  }
+}
