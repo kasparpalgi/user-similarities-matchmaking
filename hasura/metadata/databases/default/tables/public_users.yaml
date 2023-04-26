@@ -9,3 +9,10 @@ array_relationships:
         table:
           name: user_interests
           schema: public
+computed_fields:
+  - name: common_interests
+    definition:
+      function:
+        name: common_interests
+        schema: public
+      table_argument: user_row
